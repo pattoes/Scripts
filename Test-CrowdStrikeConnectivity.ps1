@@ -1,4 +1,4 @@
-﻿<# 
+<#
 .SYNOPSIS
   Test connectivity to a CrowdStrike cloud URL via WinINET and WinHTTP,
   both with a defined proxy and direct.
@@ -211,3 +211,4 @@ $oneLine = '{0},{1},{2}' -f $env:COMPUTERNAME, $Url, ($results | ForEach-Object 
 Write-Output $oneLine
 
 Write-Verbose "Detailed results saved to $detailPath"
+
